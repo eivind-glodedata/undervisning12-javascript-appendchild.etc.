@@ -36,3 +36,12 @@ longe Latio, multosque per annos errabant, acti fatis, maria omnia circum. Tanta
 
 // Usage example:
 // typeText('myElement', 'Hello, world!', 100);
+
+
+const newButton = document.createElement("button"); // Oppretter et <p>-element
+const heroSection = document.querySelector('#heroSection');
+newButton.textContent = "Klikk meg også!";
+newButton.classList.add("btn-style");
+newButton.style.color = "black";
+newButton.style.textShadow = "2px 2px 5px red";
+heroSection.appendChild(newButton);
